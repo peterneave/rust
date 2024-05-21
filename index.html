@@ -451,8 +451,8 @@ x = <span class="hljs-number">6</span>;
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="44" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" data-paginate="true" data-header="Enums" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="44" style="--paginate:true;--header:Enums;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Enums</header>
 <h2 id="enums">Enums</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>enum CardinalDirections {
     North,
@@ -464,15 +464,16 @@ x = <span class="hljs-number">6</span>;
 let north = CardinalDirections::North;
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="45" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" data-paginate="true" data-header="Vectors" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="45" style="--paginate:true;--header:Vectors;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Vectors</header>
 <h2 id="vectors">Vectors</h2>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">shopping_list</span>: <span class="hljs-type">Vec</span>&lt;&amp;<span class="hljs-type">str</span>&gt; = <span class="hljs-type">Vec</span>::<span class="hljs-title function_ invoke__">new</span>(); <span class="hljs-comment">//Vec&lt;&amp;str&gt; not needed as the compiler can infer it from the next line</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">shopping_list</span>: <span class="hljs-type">Vec</span>&lt;&amp;<span class="hljs-type">str</span>&gt; = <span class="hljs-type">Vec</span>::<span class="hljs-title function_ invoke__">new</span>();
+<span class="hljs-comment">//Vec&lt;&amp;str&gt; not needed as the compiler can infer it from the next line</span>
 shopping_list.<span class="hljs-title function_ invoke__">push</span>(<span class="hljs-string">&quot;milk&quot;</span>);
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="48" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="46" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="48" data-paginate="true" data-header="Structures" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="46" style="--paginate:true;--header:Structures;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Structures</header>
 <h2 id="structures">Structures</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>#[derive(Debug)]
 struct Car {
@@ -489,22 +490,23 @@ fn print_car(car: &amp;Car) {
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="49" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="47" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="49" data-paginate="true" data-header="Structures" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="47" style="--paginate:true;--header:Structures;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Structures</header>
 <p>Formatting for structs</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;{:?}&quot;</span>, car1); <span class="hljs-comment">//Single line - good for small structs</span>
 <span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;{:#?}&quot;</span>, car1); <span class="hljs-comment">//Multiple line - good for larger structs</span>
 dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of code for debugging purposes</span>
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="48" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" data-paginate="true" data-header="Traits" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="48" style="--paginate:true;--header:Traits;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Traits</header>
 <h2 id="traits">Traits</h2>
+
 <p>A trait defines functionality a particular type has and can share with other types. We can use traits to <strong>define shared behaviors in an abstract way</strong>. We can use trait bounds to specify that a generic type can be any type that has certain behaviors.</p>
 <p>Allows for <strong>Polymorphism by default</strong>. Traits are like <strong>interfaces</strong> with some differences. Forces <strong>early abstraction</strong> - which can be good and bad.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="49" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" data-paginate="true" data-header="Traits" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="49" style="--paginate:true;--header:Traits;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Traits</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">struct</span> <span class="hljs-title class_">Film</span> {
     title: <span class="hljs-type">String</span>,
     director: <span class="hljs-type">String</span>,
@@ -527,8 +529,8 @@ dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of 
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="50" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-paginate="true" data-header="Traits" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="50" style="--paginate:true;--header:Traits;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Traits</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
     <span class="hljs-keyword">let</span> <span class="hljs-variable">captain_marvel</span> = Film {
         title: <span class="hljs-type">String</span>::<span class="hljs-title function_ invoke__">from</span>(<span class="hljs-string">&quot;Captain Marvel&quot;</span>),
@@ -540,14 +542,14 @@ dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of 
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="51" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="51" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <h2 id="error-handling">Error Handling</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-built_in">panic!</span>(<span class="hljs-string">&quot;in the disco&quot;</span>); <span class="hljs-comment">//<img class="emoji" draggable="false" alt="🪩" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1faa9.svg" data-marp-twemoji=""/><img class="emoji" draggable="false" alt="🕺" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f57a.svg" data-marp-twemoji=""/></span>
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="52" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="52" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <h3 id="result-enum">Result Enum</h3>
 <p>Used for recoverable errors that are more common.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">pub</span> <span class="hljs-keyword">enum</span> <span class="hljs-title class_">Result</span>&lt;T, E&gt; {
@@ -557,8 +559,8 @@ dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of 
 </code></pre>
 <p>Rather than having at catch and only catching specific exceptions. Return a custom error enum and the caller to your function has to handle all types of errors.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="53" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="53" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <p>Result Example</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-comment">// #1</span>
 <span class="hljs-keyword">let</span> <span class="hljs-variable">f</span> = File::<span class="hljs-title function_ invoke__">open</span>(<span class="hljs-string">&quot;hello.txt&quot;</span>);
@@ -578,8 +580,8 @@ dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of 
 <span class="hljs-comment">//You &#x27;expect&#x27; it to work but if you are wrong then you get a loud failure.</span>
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="54" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="54" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <h3 id="idiomatic-solution-example">Idiomatic Solution Example</h3>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust">result.<span class="hljs-title function_ invoke__">is_some</span>() <img class="emoji" draggable="false" alt="❌" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/274c.svg" data-marp-twemoji=""/>
 
@@ -591,8 +593,8 @@ dbg!(&amp;car1); <span class="hljs-comment">//Multiple lines - includes line of 
 result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2705.svg" data-marp-twemoji=""/>
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="55" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="55" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">let</span> <span class="hljs-keyword">mut </span><span class="hljs-variable">file</span> = <span class="hljs-keyword">match</span> File::<span class="hljs-title function_ invoke__">create</span>(<span class="hljs-string">&quot;my_best_friends.txt&quot;</span>) {
     <span class="hljs-title function_ invoke__">Ok</span>(f) =&gt; f,
     <span class="hljs-title function_ invoke__">Err</span>(e) =&gt; <span class="hljs-keyword">return</span> <span class="hljs-title function_ invoke__">Err</span>(e),
@@ -602,8 +604,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 <span class="hljs-comment">//Unwraps the value if Ok variant and returns an error if Err variant</span>
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="56" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="56" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <h3 id="no-nulls-%F0%9F%A5%B3">No Nulls <img class="emoji" draggable="false" alt="🥳" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f973.svg" data-marp-twemoji=""/></h3>
 <p>Does not use Nulls but instead uses a <code>Option of type T</code> return that either gives you a value of type T or None - which you can match on.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">pub</span> <span class="hljs-keyword">enum</span> <span class="hljs-title class_">Option</span>&lt;T&gt; {
@@ -613,8 +615,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 </code></pre>
 <p>It describes the possibility of an absence of a value.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="57" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="57" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-comment">// An integer division that doesn&#x27;t `panic!`</span>
 <span class="hljs-keyword">fn</span> <span class="hljs-title function_">checked_division</span>(dividend: <span class="hljs-type">i32</span>, divisor: <span class="hljs-type">i32</span>) <span class="hljs-punctuation">-&gt;</span> <span class="hljs-type">Option</span>&lt;<span class="hljs-type">i32</span>&gt; {
     <span class="hljs-keyword">if</span> divisor == <span class="hljs-number">0</span> {
@@ -627,8 +629,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="58" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" data-paginate="true" data-header="Error Handling" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="58" style="--paginate:true;--header:Error Handling;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Error Handling</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">try_division</span>(dividend: <span class="hljs-type">i32</span>, divisor: <span class="hljs-type">i32</span>) {
     <span class="hljs-comment">// `Option` values can be pattern matched, just like other enums</span>
     <span class="hljs-keyword">match</span> <span class="hljs-title function_ invoke__">checked_division</span>(dividend, divisor) {
@@ -640,17 +642,18 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="59" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" data-paginate="true" data-header="Ownership" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="59" style="--paginate:true;--header:Ownership;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Ownership</header>
 <h2 id="rules-of-ownership">Rules of Ownership</h2>
+
 <ul>
 <li>Each value in Rust has a variable that is called it's <em>owner</em></li>
 <li>There can only be <em>one owner</em> at a time</li>
 <li>When the owner goes <em>out of scope</em>, the <em>value</em> will be dropped.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="62" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="60" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="62" data-paginate="true" data-header="Ownership" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="60" style="--paginate:true;--header:Ownership;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Ownership</header>
 <ul>
 <li>Ownership - have to add <code>mut</code> and add <code>pub</code> public keywords
 <ul>
@@ -662,8 +665,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 </li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="63" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="61" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="63" data-paginate="true" data-header="Ownership" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="61" style="--paginate:true;--header:Ownership;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Ownership</header>
 <ul>
 <li>Ownership is more than memory
 <ul>
@@ -673,8 +676,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 </li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="64" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="62" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="64" data-paginate="true" data-header="Ownership" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="62" style="--paginate:true;--header:Ownership;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Ownership</header>
 <p>This does not compile</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
     <span class="hljs-keyword">let</span> <span class="hljs-variable">s1</span> = <span class="hljs-type">String</span>::<span class="hljs-title function_ invoke__">from</span>(<span class="hljs-string">&quot;hello&quot;</span>);
@@ -684,8 +687,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="65" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="63" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="65" data-paginate="true" data-header="Ownership" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="63" style="--paginate:true;--header:Ownership;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Ownership</header>
 <p>Compiler message</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-sh">error[E0382]: borrow of moved value: `s1`
  --&gt; src/main.rs:5:28
@@ -705,9 +708,10 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
   |                ++++++++
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="66" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="64" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="66" data-paginate="true" data-header="Borrowing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="64" style="--paginate:true;--header:Borrowing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Borrowing</header>
 <h2 id="borrowing">Borrowing</h2>
+
 <ul>
 <li>Borrowing is the most idiomatic solution. Get access data without taking ownership over it.
 <ul>
@@ -722,8 +726,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 </li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="67" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="65" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="67" data-paginate="true" data-header="Borrowing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="65" style="--paginate:true;--header:Borrowing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Borrowing</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
     <span class="hljs-keyword">let</span> <span class="hljs-variable">s1</span> = <span class="hljs-type">String</span>::<span class="hljs-title function_ invoke__">from</span>(<span class="hljs-string">&quot;hello&quot;</span>);
     <span class="hljs-keyword">let</span> <span class="hljs-variable">s2</span> = &amp;s1; <span class="hljs-comment">//borrow here with &amp;</span>
@@ -733,9 +737,10 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="68" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="66" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="68" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="66" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <h2 id="unit-tests">Unit Tests</h2>
+
 <p>Unit tests exercise different parts of a library separately and can test private implementation details.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">pub</span> <span class="hljs-keyword">fn</span> <span class="hljs-title function_">is_even</span>(num: <span class="hljs-type">i32</span>) <span class="hljs-punctuation">-&gt;</span> <span class="hljs-type">bool</span> {
     num % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>
@@ -752,13 +757,13 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="69" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="67" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="69" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="67" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <h2 id="integration-tests">Integration Tests</h2>
 <p>Integration tests check that many parts of the library work together correctly, and they use the library’s public API to test the code in the same way external code will use it.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="70" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="68" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="70" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="68" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">pub</span> <span class="hljs-keyword">struct</span> <span class="hljs-title class_">Pizza</span> {
     <span class="hljs-keyword">pub</span> topping: <span class="hljs-type">String</span>,
     <span class="hljs-keyword">pub</span> inches: <span class="hljs-type">u8</span>,
@@ -782,8 +787,8 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="71" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="69" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="71" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="69" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">use</span> integration_tests::Pizza;
 
 <span class="hljs-meta">#[test]</span>
@@ -801,13 +806,13 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="72" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="70" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="72" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="70" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <h2 id="sql-unit-test">SQL Unit Test</h2>
 <p>SQL is actually run at compile time in a transaction to ensure that the SQL is valid and then rolled back</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="73" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="71" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="73" data-paginate="true" data-header="Testing" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="71" style="--paginate:true;--header:Testing;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Testing</header>
 <h2 id="document-tests">Document Tests</h2>
 <p>Rust will run tests within the documentation</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-comment">/// ```</span>
@@ -820,9 +825,10 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 </code></pre>
 <p>Run <code>cargo test</code> and check the output</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="74" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="72" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="74" data-paginate="true" data-header="Lifetimes" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="72" style="--paginate:true;--header:Lifetimes;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
+<header>Lifetimes</header>
 <h2 id="lifetimes">Lifetimes</h2>
+
 <p><code>'a</code> is the lifetime annotation for our value x. <code>'b</code> is the lifetime annotation for our value y.</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() {
     <span class="hljs-keyword">let</span> <span class="hljs-variable">x</span>;                <span class="hljs-comment">// ---------+-- &#x27;a</span>
@@ -834,13 +840,12 @@ result? <img class="emoji" draggable="false" alt="✅" src="https://cdn.jsdelivr
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="75" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="73" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="75" data-paginate="true" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="73" style="--paginate:true;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
 <h2 id="other-languages">Other languages</h2>
+
 <p>Rust bindings for Python, including tools for creating native Python extension modules. Running and interacting with Python code from a Rust binary is also supported. <a href="https://github.com/PyO3/pyo3">https://github.com/PyO3/pyo3</a></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="76" data-paginate="true" data-header="Loops" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="74" style="--paginate:true;--header:Loops;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
-<header>Loops</header>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="76" data-paginate="true" data-theme="uncover" data-heading-divider="3" lang="en-US" data-marpit-pagination="74" style="--paginate:true;--theme:uncover;--heading-divider:3;" data-marpit-pagination-total="74">
 <h2 id="controversy">Controversy</h2>
 <ul>
 <li>Leadership issues</li>
