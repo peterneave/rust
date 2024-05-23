@@ -35,12 +35,18 @@ A high level overview of the _latest_ highly admired programming language by dev
 ## What is Rust?
 <!-- header: What is Rust -->
 
-![bg right h:500px](img/rust-logo-blk.svg)
+![bg left h:500px](img/rust-logo-blk.svg)
 
 Based of the
 [Rust Fungus](https://www.reddit.com/r/rust/comments/27jvdt/internet_archaeology_the_definitive_endall_source/).
 
 The logo is a bike ring because most of the developers who started Rust [like to ride bikes](https://bugzilla.mozilla.org/show_bug.cgi?id=680521)
+
+---
+
+Graydon Hoare created Rust as personal project while working at Mozilla Research in 2006.
+
+He realised that memory safety bugs where likely causing the elevator to break down in his apartment building.
 
 ## Mascot
 
