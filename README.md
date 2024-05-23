@@ -48,6 +48,8 @@ Graydon Hoare created Rust as personal project while working at Mozilla Research
 
 He realised that memory safety bugs where likely causing the elevator to break down in his apartment building.
 
+>It’s ridiculous that we computer people couldn’t even make an elevator that works without crashing!
+
 ## Mascot
 
 Ferris the crab
@@ -845,6 +847,12 @@ Rust bindings for Python, including tools for creating native Python extension m
 
 ## Controversy
 
-- Leadership issues
+- Leadership issues - Rust Foundation created
 - Trademark Policies
 - Choice of Malware writers - 'RustDoor'
+
+## Conclusion
+
+Rust - now found in Elevators.
+
+![width:800px](img/rustelevator.png)
