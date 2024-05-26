@@ -305,7 +305,6 @@ fn main() {
 }
 ```
 
-
 ## Features
 
 'Variables' (actually binding) - immutable by default.
@@ -444,6 +443,30 @@ let a: [i32; 5] = [10, 20, 30, 40, 50];
 for element in a.iter() {
     println!("the value is: {}", element);
 }
+```
+
+## Iterators
+<!-- header: Iterators -->
+
+```rust
+let v: Vec<i32> = [1, 2, 3].into_iter()
+                           .map(|x| x + 1)
+                           .rev()
+                           .collect();
+
+assert_eq!(v, [4, 3, 2]);
+```
+
+
+---
+
+```rust
+let strings = vec!["tofu", "93", "18"];
+let numbers: Vec<_> = strings
+    .into_iter()
+    .filter_map(|s| s.parse::<i32>().ok())
+    .collect();
+println!("Results: {:?}", numbers);
 ```
 
 ## Enums
