@@ -96,6 +96,7 @@ Close to speed of C/C++.
 - [RedoxOS](https://redox-os.org) - Redox is a Unix-like Operating System written in Rust.
 - [Warp Terminal](https://www.warp.dev/) - an AI Powered Terminal
 - [Using WebAssembly for Extension Development](https://code.visualstudio.com/blogs/2024/05/08/wasm)
+- Renault electric passenger car brand Ampere SDV platform is written in Rust.
 
 ---
 
