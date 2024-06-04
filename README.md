@@ -83,6 +83,13 @@ Close to speed of C/C++.
 
 [![bg h:500px](img/programmingbenchmarks.svg)](https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
 
+### Memory Safety
+
+>Rust programs are unable to compile if memory management rules are violated, essentially eliminating the possibility of a memory issue at runtime.
+
+  *20% of crates (packages) make use of unsafe keyword.
+
+
 ### Why - Rust in the wild
 <!-- header: Rust in the wild -->
 
