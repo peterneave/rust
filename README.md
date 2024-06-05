@@ -87,8 +87,14 @@ Close to speed of C/C++.
 
 >Rust programs are unable to compile if memory management rules are violated, essentially eliminating the possibility of a memory issue at runtime.
 
-  *20% of crates (packages) make use of unsafe keyword.
+Does not have a runtime cost of a garbage collector - instead uses Lifetimes.
 
+### Secure
+
+![width:800px](img/markrussinovich.png)
+Reduced security vulnerabilities*
+
+  *20% of crates (packages) make use of unsafe keyword.
 
 ### Why - Rust in the wild
 <!-- header: Rust in the wild -->
