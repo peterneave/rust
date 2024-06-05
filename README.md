@@ -3,6 +3,20 @@ marp: true
 theme: uncover
 headingDivider: 3
 paginate: true
+style: |
+  section::after {
+    /* Layout of pagination content */
+    box-sizing: border-box;
+    text-align: right;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    padding: 20px;
+
+    /* Triangle background */
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('img/cuddlyferris.png') no-repeat center center;
+    background-size: contain;
+  }
 ---
 
 
@@ -52,12 +66,16 @@ He realised that memory safety bugs where likely causing the elevator to break d
 
 ## Mascot
 
-Ferris the crab
+Ferris the Crab. When you learn Rust you become a Rustacean.
 
-![bg right h:300px](img/cuddlyferris.png)
+![bg right h:300px](img/cuddlyferris.gif)
 
 ## Why Rust?
 <!-- header: Why Rust -->
+
+> The short answer is that Rust solves pain points present in many other languages, providing a solid step forward with a limited number of downsides. [Stack Overflow Blog - 2020](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
+
+---
 
 >Don't count your servers, make your servers count.
 
