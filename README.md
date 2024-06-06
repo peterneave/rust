@@ -285,7 +285,7 @@ devcontainer.json
 <!-- header: Tools -->
 ![bg right:30% h:400px](img/cargo.png)
 
-- **Cargo** - use this - don't use `rustc`
+- **Cargo** - build tool, dependency manager, test runner and project bootstrapper - rarely use `rustc`
 - **RustFmt** - standardize formatter
 - **Clippy** - better code feedback than the compiler
 - [creates.io](https://crates.io) - Rust's Packages Manager
