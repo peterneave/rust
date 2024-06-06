@@ -72,11 +72,15 @@ He realised that memory safety bugs where likely causing the elevator to break d
 
 > The short answer is that Rust solves pain points present in many other languages, providing a solid step forward with a limited number of downsides. [Stack Overflow Blog - 2020](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
 
----
-
-It's performant and memory optimized.
+**It's performant and memory optimized.**
 
 >Don't count your servers, make your servers count.
+
+---
+
+- Rust developers at [Google](https://www.theregister.com/2024/03/31/rust_google_c/) are twice as productive as C++ teams
+
+  > "So we see reduced memory usage in the services that we've moved from Go ... and we see a decreased defect rate over time in those services that have been rewritten in Rust – so increasing correctness."
 
 ---
 
@@ -90,7 +94,8 @@ https://serverless-rust.com/docs/why-rust))
 
 ---
 
-⚡ _Blazing Fast_ ⚡
+#### ⚡ _Blazing Fast_ ⚡
+and _less memory_
 
 Close to speed of C/C++.
 
@@ -115,7 +120,13 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 
   *20% of crates (packages) make use of unsafe keyword.
 
-### Why - Rust in the wild
+---
+
+- [NSA cybersecurity information sheet](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF) recommends we use memory safe languages  C#, Go, Java, Ruby, Swift and **Rust**.
+- The White House Office of the National Cyber Director (ONCD) called on developers to reduce the risk of cyberattacks by using **programming languages that don't have memory safety vulnerabilities**.
+
+
+### Rust in the wild
 <!-- header: Rust in the wild -->
 
 - [Rust is in the Linux](https://en.wikipedia.org/wiki/Rust_for_Linux)
@@ -127,19 +138,8 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 - CloudFlare open sources their http proxy (alternative to NGINX) called [Pingora](https://blog.cloudflare.com/pingora-open-source)
 - [RedoxOS](https://redox-os.org) - Redox is a Unix-like Operating System written in Rust.
 - [Warp Terminal](https://www.warp.dev/) - an AI Powered Terminal
-- [Using WebAssembly for Extension Development](https://code.visualstudio.com/blogs/2024/05/08/wasm)
+- [Using WebAssembly for VS Code Extension Development](https://code.visualstudio.com/blogs/2024/05/08/wasm)
 - Renault electric passenger car brand Ampere SDV platform is written in Rust.
-
----
-
-- [NSA cybersecurity information sheet](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF) recommends we use memory safe languages  C#, Go, Java, Ruby, Swift and _Rust_.
-- The White House Office of the National Cyber Director (ONCD) called on developers to reduce the risk of cyberattacks by using programming languages that don’t have memory safety vulnerabilities.
-
----
-
-- Rust developers at [Google](https://www.theregister.com/2024/03/31/rust_google_c/) are twice as productive as C++ teams
-
-  > "So we see reduced memory usage in the services that we've moved from Go ... and we see a decreased defect rate over time in those services that have been rewritten in Rust – so increasing correctness."
 
 ---
 
@@ -183,10 +183,10 @@ It's difficult to learn. Large cognitive load to learn.
 
 ### Thinking Non-Functional Requirements
 
-- High maintainability - Get it right early; not later
-- Testing - By design with unit, integration and even documentation testing
-- Scalability - Low Memory as it's not a GC language
-- You can prototype with the code but it encourages you to have polished code early.
+✅ High maintainability - Get it right early; not later
+✅ Testing - By design with unit, integration and even documentation testing
+✅ Scalability - Low Memory as it's not a GC language
+〰️ Prototype - However, it encourages you to have polished code early.
 
 ## Getting Started
 <!-- header: Getting Started -->
@@ -245,7 +245,7 @@ Javascript vs Rust
 
 ## Dev Container
 
-Rust might be flagged by anti-virus software - develop in a container instead 😏
+Rust might be flagged by anti-virus software - develop in a [dev container](https://containers.dev/supporting) instead 😏
 
 ---
 
@@ -285,10 +285,10 @@ devcontainer.json
 <!-- header: Tools -->
 ![bg right:30% h:400px](img/cargo.png)
 
-- Cargo - use this - don't use `rustc`
-- Rust's Packages Manager - <https://crates.io>
-- RustFmt - standardize formatter
-- Clippy - better code feedback than the compiler
+- **Cargo** - use this - don't use `rustc`
+- **RustFmt** - standardize formatter
+- **Clippy** - better code feedback than the compiler
+- [creates.io](https://crates.io) - Rust's Packages Manager
 
 # Rust Language
 <!-- header: Rust Language -->
@@ -634,7 +634,7 @@ Rather than having at catch and only catching specific exceptions. Return a cust
 
 ---
 
-Result Example
+#### Result Example
 
 ```rust
 // #1
@@ -918,7 +918,7 @@ Rust bindings for Python, including tools for creating native Python extension m
 
 - Leadership issues - Rust Foundation created
 - Trademark Policies
-- Choice of Malware writers - 'RustDoor'
+- Choice of Malware writers (ie RustDoor)
 
 ## Conclusion
 
