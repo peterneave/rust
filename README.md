@@ -145,6 +145,7 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 
 - [Zed.dev](https://zed.dev) code editor. _(Mac only currently)_
 - Mozilla [Project Oxidation](https://wiki.mozilla.org/Oxidation) is integration of Rust code into Firefox
+- [Rust to .NET compiler](https://github.com/FractalFir/rustc_codegen_clr) backend (experimental). Rust compiler to .NET assemblies
 
 ### AWS Support
 <!-- header: Rust and AWS -->
@@ -225,6 +226,7 @@ Javascript vs Rust
 
 - [Exercism - Rust Track](https://exercism.org/tracks/rust) - Series of exercises to learn rust
 ![bg right:60% w:700px](img/exercism.png)
+- [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 
 - [And more...(github page)](https://github.com/ctjhoa/rust-learning)
 
