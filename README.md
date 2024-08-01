@@ -144,7 +144,7 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 
 ---
 
-- [Zed.dev](https://zed.dev) code editor. _(Mac only currently)_
+- [Zed.dev](https://zed.dev) code editor. _(Not available for Windows yet)_
 - Mozilla [Project Oxidation](https://wiki.mozilla.org/Oxidation) is integration of Rust code into Firefox
 - [Rust to .NET compiler](https://github.com/FractalFir/rustc_codegen_clr) backend (experimental). Rust compiler to .NET assemblies
 
