@@ -130,9 +130,7 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 
 You can compile to WASM with Rust
 
->If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. _That's how important it is._ ***Webassembly on the server is the future of computing.*** A standardized system interface was the missing link. Let's hope WASI is up to the task!
-
-Solomon Hykes March 2019 on [x.com](https://x.com/solomonstre/status/1111004913222324225)
+[![width:800px](img/dockerwasm.png)](https://x.com/solomonstre/status/1111004913222324225)
 
 Docker introduced experimental support for WebAssembly in July 2023.
 
