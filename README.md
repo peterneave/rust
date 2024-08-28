@@ -28,7 +28,7 @@ _class:
 
 # Rust Programming Language
 
-A high level overview of the _latest_ highly admired programming language by developers.
+A high-level overview of the _latest_ highly admired programming language by developers.
 
 <!--fit-->
 <!-- _paginate: skip -->
