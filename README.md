@@ -315,7 +315,7 @@ Install and upgrade with https://rustup.rs/
 
 **2021** is the current version with 2024 due in October.
 
-Released every three years (2015, 2018, 2021, 2024). Defaults to 2015 if you don't specify otherwise. Can have breaking changes. You can choose the edition in the Cargo.toml and choose when to upgrade. They provide tooling to automate the upgrade. [See Editions](https://doc.rust-lang.org/edition-guide/editions/index.html)
+Released every three years (2015, 2018, 2021, 2024). Defaults to 2015 if you don't specify otherwise. Can have breaking changes. You can choose the edition in the Cargo.toml and choose when to upgrade. They provide tooling to automate the upgrade. [See Editions](https://doc.rust-lang.org/edition-guide/editions/index.html). Auto upgrade with (RustFix)[https://github.com/rust-lang/cargo/tree/master/crates/rustfix]
 
 ## Hello World
 
