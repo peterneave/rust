@@ -304,7 +304,7 @@ devcontainer.json
 - **Cargo** - build tool, dependency manager, test runner and project bootstrapper - rarely use `rustc`
 - **RustFmt** - standardize formatter
 - **Clippy** - better code feedback than the compiler
-- [creates.io](https://crates.io) - Rust's Packages Manager - more details at [blessed.rs](blessed.rs/)
+- [creates.io](https://crates.io) - Rust's Packages Manager - more details at [blessed.rs](https://blessed.rs/)
 
 ---
 
