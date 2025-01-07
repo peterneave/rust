@@ -268,6 +268,7 @@ devcontainer.json
 {
   "name": "Rust",
   "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "postCreateCommand": "rustup update; curl -L https://github.com/cordx56/rustowl/releases/download/v0.1.1/install.sh | sh",
   "customizations": {
     "vscode": {
       "settings": {
