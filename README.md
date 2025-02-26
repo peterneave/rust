@@ -66,7 +66,7 @@ Graydon Hoare created Rust as personal project while working at Mozilla Research
 
 He realised that memory safety bugs where likely causing the elevator to break down in his apartment building.
 
->It’s ridiculous that we computer people couldn’t even make an elevator that works without crashing!
+>It's ridiculous that we computer people couldn't even make an elevator that works without crashing!
 
 ---
 
@@ -168,6 +168,16 @@ Docker introduced experimental support for WebAssembly in July 2023.
 [Lambda Cold Starts Benchmark](https://maxday.github.io/lambda-perf)
 
 ![bg left h:600px](img/lambdacoldstarts.png)
+
+
+### Web Development
+<!-- header: Web Development -->
+
+> Yes! And it's freaking fast!
+> [Are We Web Yet?](https://www.arewewebyet.org)
+
+- Rust has mature and production ready `frameworks` in Actix Web and Axum, and innovative ones like Warp and Tide.
+- Rust can run on the browser by compiling to `WebAssembly`
 
 ## Why not Rust?
 <!-- header: Why not Rust -->
@@ -478,7 +488,7 @@ println!("'{}'", string_slice); // 'sentence'
 
 ---
 
-"arch": 64 bits if you’re on a 64-bit architecture and 32 bits if you’re on a 32-bit architecture.
+"arch": 64 bits if you're on a 64-bit architecture and 32 bits if you're on a 32-bit architecture.
 
 Other types
 
@@ -902,7 +912,7 @@ mod tests {
 
 ## Integration Tests
 
- Integration tests check that many parts of the library work together correctly, and they use the library’s public API to test the code in the same way external code will use it.
+ Integration tests check that many parts of the library work together correctly, and they use the library's public API to test the code in the same way external code will use it.
 
 ---
 
