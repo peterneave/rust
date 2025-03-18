@@ -285,14 +285,14 @@ devcontainer.json
 }
 ```
 
-## Tools
-<!-- header: Tools -->
+## Tooling
+<!-- header: Tooling -->
 ![bg right:30% h:400px](img/cargo.png)
 
 - **Cargo** - build tool, dependency manager, test runner and project bootstrapper - rarely use `rustc`
 - **RustFmt** - standardize formatter
 - **Clippy** - better code feedback than the compiler
-- [creates.io](https://crates.io) - Rust's Packages Manager
+- [creates.io](https://crates.io) - Rust's Packages Manager - more details at [blessed.rs](blessed.rs/)
 
 ---
 
