@@ -356,6 +356,25 @@ fn main() {
 }
 ```
 
+---
+
+[Rust is Complex](https://www.youtube.com/watch?v=6TIQPDL2HSQ)
+
+When compiled, macros are expanded, imports standard libraries and more
+
+```rust
+#![feature(prelude_import, print_internals)]
+#[prelude_import]
+use std::prelude::rust_2021::*;
+#[macro_use]
+extern crate std;
+fn main() {
+  {
+    ::std::io::_print(format_args!("Hello, world!\n"));
+  };
+}
+```
+
 ## Syntax
 
 'Variables' (actually binding) - immutable by default.
