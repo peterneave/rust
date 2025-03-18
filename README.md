@@ -42,9 +42,6 @@ A high level overview of the _latest_ highly admired programming language by dev
 
 ⬇️ Download [PowerPoint](https://neave.dev/rust/rust.pptx) and [PDF](https://neave.dev/rust/rust.pdf)
 
-## Visibility
-
-🔍 Looking for a Punch Buggies/Telsa Car/Car Rainbow - they are out there but you won't notice them until you start looking. 🚗
 
 ## What is Rust?
 <!-- header: What is Rust -->
@@ -56,14 +53,6 @@ Based of the
 
 The logo is a bike ring because most of the developers who started Rust [like to ride bikes](https://bugzilla.mozilla.org/show_bug.cgi?id=680521)
 
----
-
-Graydon Hoare created Rust as personal project while working at Mozilla Research in 2006.
-
-He realised that memory safety bugs where likely causing the elevator to break down in his apartment building.
-
->It’s ridiculous that we computer people couldn’t even make an elevator that works without crashing!
-
 ## Mascot
 
 Ferris the Crab. When you learn Rust you become a Rustacean.
@@ -73,9 +62,19 @@ Ferris the Crab. When you learn Rust you become a Rustacean.
 ## Why Rust?
 <!-- header: Why Rust -->
 
+Graydon Hoare created Rust as personal project while working at Mozilla Research in 2006.
+
+He realised that memory safety bugs where likely causing the elevator to break down in his apartment building.
+
+>It’s ridiculous that we computer people couldn’t even make an elevator that works without crashing!
+
+---
+
 > The short answer is that Rust solves pain points present in many other languages, providing a solid step forward with a limited number of downsides. [Stack Overflow Blog - 2020](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
 
 ---
+
+It's performant and memory optimized.
 
 >Don't count your servers, make your servers count.
 
@@ -341,7 +340,7 @@ fn main() {
 }
 ```
 
-## Features
+## Syntax
 
 'Variables' (actually binding) - immutable by default.
 ```rust
