@@ -290,7 +290,8 @@ devcontainer.json
         "fill-labs.dependi",
         "Gruntfuggly.todo-tree",
         "usernamehw.errorlens",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "cordx56.rustowl-vscode"
       ]
     }
   }
