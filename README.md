@@ -374,7 +374,7 @@ When compiled, macros are expanded, imports standard libraries and more
 ```rust
 #![feature(prelude_import, print_internals)]
 #[prelude_import]
-use std::prelude::rust_2021::*;
+use std::prelude::rust_2024::*;
 #[macro_use]
 extern crate std;
 fn main() {
