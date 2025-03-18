@@ -246,8 +246,12 @@ Official <https://www.rust-lang.org/learn>
 
 - [Exercism - Rust Track](https://exercism.org/tracks/rust) - Series of exercises to learn rust
 ![bg right:60% w:700px](img/exercism.png)
-- [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 
+---
+
+- [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
+- [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises)
+- [Rustfinity](https://www.rustfinity.com/)
 - [And more...(github page)](https://github.com/ctjhoa/rust-learning)
 
 ## Learn by Video (cont...)
