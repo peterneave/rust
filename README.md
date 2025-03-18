@@ -357,6 +357,7 @@ $ tree
 ```
 
 ---
+
 `Hello World` Code
 
 ```rust
@@ -364,6 +365,35 @@ $ tree
 fn main() {
     println!("Hello World");
 }
+```
+
+---
+
+Inside `Cargo.toml` (Tom's Obvious, Minimal Language)
+
+```toml
+[package]
+name = "my_project"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+
+[dependencies]
+# insert dependencies here
+```
+
+---
+
+How to [minimize Rust binary sizes](https://github.com/johnthagen/min-sized-rust). You must build in release mode with `cargo build --release`
+
+```toml
+# Add to Cargo.toml
+[profile.release]
+codegen-units = 1   # Reduce number of codegen units to increase optimizations
+lto = true          # Enable link-time optimization
+opt-level = 'z'     # Optimize for size
+panic = 'abort'     # Abort on panic
+strip = true        # Strip symbols from binary
 ```
 
 ---
