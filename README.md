@@ -112,6 +112,8 @@ Does not have a runtime cost of a garbage collector - instead uses Lifetimes.
 ![width:800px](img/markrussinovich.png)
 Reduced security vulnerabilities*
 
+Look at <https://www.memorysafety.org> for some initiatives.
+
   *20% of crates (packages) make use of unsafe keyword.
 
 ### Why - Rust in the wild
