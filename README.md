@@ -209,7 +209,7 @@ Official <https://www.rust-lang.org/learn>
 
 ![bg right h:500px](img/rustvsjs.webp)
 
-Javascript vs Rust
+> In other languages, simple things are easy and complex things are possible, in Rust simple things are possible and complex things are *easy*.
 
 ---
 
