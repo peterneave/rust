@@ -109,10 +109,10 @@ Does not have a runtime cost of a garbage collector - instead uses Lifetimes.
 
 ### Secure
 
-![width:800px](img/markrussinovich.png)
+![bg right:40% width:500px](img/markrussinovich.png)
 Reduced security vulnerabilities*
 
-Look at <https://www.memorysafety.org> for some initiatives.
+Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (cURL, Linux Kernel, TLS, sudo, NTP)
 
   *20% of crates (packages) make use of unsafe keyword.
 
