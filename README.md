@@ -281,12 +281,16 @@ devcontainer.json
         "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|todo!",
       },
       "extensions": [
-        "dustypomerleau.rust-syntax",
-        "Gruntfuggly.todo-tree",
-        "streetsidesoftware.code-spell-checker"
-        "tamasfe.even-better-toml",
-        "usernamehw.errorlens",
+        "rust-lang.rust-analyzer",
         "vadimcn.vscode-lldb",
+        "dustypomerleau.rust-syntax",
+        "lorenzopirro.rust-flash-snippets",
+        "Swellaby.vscode-rust-test-adapter",
+        "tamasfe.even-better-toml",
+        "fill-labs.dependi",
+        "Gruntfuggly.todo-tree",
+        "usernamehw.errorlens",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   }
