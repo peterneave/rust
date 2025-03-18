@@ -953,6 +953,26 @@ fn main() {
 }
 ```
 
+---
+
+Visualize Lifetimes with [RustOwl 🦉](https://github.com/cordx56/rustowl)
+
+![bg right width:600px](img/rustowl.png)
+
+<style scoped>
+  ul {
+    font-size: 0.5rem;
+  }
+</style>
+
+- 🟩 green: variable's actual lifetime
+- 🟦 blue: immutable borrowing
+- 🟪 purple: mutable borrowing
+- 🟧 orange: value moved / function call
+- 🟥 red: lifetime error - diff of lifetime between actual and expected
+
+
+
 ## Other languages
 <!-- header: "" -->
 
