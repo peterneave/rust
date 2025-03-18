@@ -230,10 +230,11 @@ Javascript vs Rust
 
 ## Learn by Video (cont...)
 
-- [Rust In Motion](https://learning.oreilly.com/videos/rust-in-motion)
-- [Beginners Series To Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust)
-- [Rust First Steps](https://learn.microsoft.com/en-us/training/paths/rust-first-steps)
 - [How to Learn Rust](https://www.youtube.com/watch?v=2hXNd6x9sZs)
+- [Beginners Series To Rust - Microsoft Learn](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust)
+- [Rust First Steps - Microsoft Learn Training](https://learn.microsoft.com/en-us/training/paths/rust-first-steps)
+- [100 Exercises To Learn Rust](https://rust-exercises.com/)
+- [Rust In Motion (Paid)](https://learning.oreilly.com/videos/rust-in-motion)
 
 ## Tools
 
