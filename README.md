@@ -651,7 +651,7 @@ fn main() {
 <!-- header: Error Handling -->
 
 ```rust
-panic!("in the disco"); //🪩🕺
+panic!("at the disco"); //🪩🕺
 ```
 
 ### Result Enum
