@@ -291,6 +291,10 @@ devcontainer.json
 - **Clippy** - better code feedback than the compiler
 - [creates.io](https://crates.io) - Rust's Packages Manager
 
+---
+
+Rust has large compile times due to downloading creates and compiling them into your binary.
+
 # Rust Language
 <!-- header: Rust Language -->
 
