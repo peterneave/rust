@@ -851,6 +851,8 @@ fn main() {
 
 Unit tests exercise different parts of a library separately and can test private implementation details.
 
+---
+
 ```rust
 pub fn is_even(num: i32) -> bool {
     num % 2 == 0
