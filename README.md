@@ -401,22 +401,23 @@ fn exclaim(input: String) -> String {
 
 ### Control Flow
 
-   let x: i32 = -1000;
+```rust
+let x: i32 = -1000;
 
-    if x > 0 && x < 100 {
-        println!("x has a value");
-    } else if x > 100 {
-        println!("x is a big number")
-    } else {
-        println!("x is negative")
-    }
+if x > 0 && x < 100 {
+    println!("x has a value");
+} else if x > 100 {
+    println!("x is a big number")
+} else {
+    println!("x is negative")
+}
 
-    let boolean: bool = true;
-    let binary: i32 = match boolean {
-        false => 0,
-        true => 1,
-    };
-
+let boolean: bool = true;
+let binary: i32 = match boolean {
+    false => 0,
+    true => 1,
+};
+```
 
 ### Loops
 <!-- header: Loops -->
@@ -448,7 +449,7 @@ for element in a.iter() {
 ## Enums
 <!-- header: Enums -->
 
-```
+```rust
 enum CardinalDirections {
     North,
     South,
@@ -471,7 +472,7 @@ shopping_list.push("milk");
 ## Structures
 <!-- header: Structures -->
 
-```
+```rust
 #[derive(Debug)]
 struct Car {
     make: String,
@@ -493,7 +494,17 @@ Formatting for structs
 
 ```rust
 println!("{:?}", car1); //Single line - good for small structs
+//Car { make: "Ford", model: "Mustang", year: 1967 }
+
 println!("{:#?}", car1); //Multiple line - good for larger structs
+/*
+Car {
+    make: "Ford",
+    model: "Mustang",
+    year: 1967,
+}
+*/
+
 dbg!(&car1); //Multiple lines - includes line of code for debugging purposes
 ```
 
@@ -853,6 +864,6 @@ Rust bindings for Python, including tools for creating native Python extension m
 
 ## Conclusion
 
-Rust - now found in Elevators.
+Rust is everywhere - including Elevators.
 
 ![width:800px](img/rustelevator.png)
