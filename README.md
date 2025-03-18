@@ -152,6 +152,7 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 
 - [AWS Lambda supports Amazon Linux 2023](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-lambda-amazon-linux-2023)
 - [Cargo Lambda](https://www.cargo-lambda.info) (see [docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-rust.html))
+- AWS CodeArtifact [now supports Cargo](https://aws.amazon.com/about-aws/whats-new/2024/06/), the Rust package manageraws-codeartifact-cargo-rust-package-manager/
 - [Serverless Rust](https://serverless-rust.com/) - Your One Stop Shop For All Things Serverless Rust
 
 ### AWS Lambda Cold Starts
