@@ -282,7 +282,6 @@ devcontainer.json
       },
       "extensions": [
         "dustypomerleau.rust-syntax",
-        "serayuzgur.crates",
         "Gruntfuggly.todo-tree",
         "streetsidesoftware.code-spell-checker"
         "tamasfe.even-better-toml",
