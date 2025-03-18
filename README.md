@@ -126,6 +126,15 @@ Look at [memorysafety.org](https://www.memorysafety.org) for some initiatives (c
 - The White House Office of the National Cyber Director (ONCD) called on developers to reduce the risk of cyberattacks by using **programming languages that don't have memory safety vulnerabilities**.
 - [TRACTOR](https://www.darpa.mil/program/translating-all-c-to-rust) Translating All C to Rust - The Defense Advanced Research Projects Agency (DARPA)
 
+### WASM
+
+You can compile to WASM with Rust
+
+>If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. _That's how important it is._ ***Webassembly on the server is the future of computing.*** A standardized system interface was the missing link. Let's hope WASI is up to the task!
+
+Solomon Hykes March 2019 on [x.com](https://x.com/solomonstre/status/1111004913222324225)
+
+Docker introduced experimental support for WebAssembly in July 2023.
 
 ### Rust in the wild
 <!-- header: Rust in the wild -->
