@@ -252,6 +252,7 @@ Official <https://www.rust-lang.org/learn>
 - [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 - [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises)
 - [Rustfinity](https://www.rustfinity.com/)
+- [Embedded Training](https://training.tweede.golf/)
 - [And more...(github page)](https://github.com/ctjhoa/rust-learning)
 
 ## Learn by Video (cont...)
