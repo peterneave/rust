@@ -223,7 +223,7 @@ Official <https://www.rust-lang.org/learn>
 
 ---
 
-- [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. Available in [paperback and ebook format](https://nostarch.com/rust-programming-language-2nd-edition). _You can execute the code examples within 'The Book'_
+- [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. Available in [paperback and ebook format](https://nostarch.com/rust-programming-language-3rd-edition). _You can execute the code examples within 'The Book'_
 - [Rust Book (Interactive)](https://rust-book.cs.brown.edu) - Different version of the Rust Book, featuring: quizzes, highlighting, visualizations, and more.
 
 ---
