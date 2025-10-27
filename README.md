@@ -295,6 +295,7 @@ devcontainer.json
           "Cargo.toml": ".clippy.toml, .rustfmt.toml, Cargo.lock, clippy.toml, cross.toml, rust-toolchain.toml, rustfmt.toml"
         },
         "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|todo!",
+        "editor.inlayHints.enabled": "offUnlessPressed" //CTRL + ALT to show inlay hints
       },
       "extensions": [
         "rust-lang.rust-analyzer",
