@@ -249,6 +249,7 @@ Official <https://www.rust-lang.org/learn>
 
 ---
 
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 - [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
 - [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises)
 - [Rustfinity](https://www.rustfinity.com/)
