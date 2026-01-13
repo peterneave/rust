@@ -49,7 +49,7 @@ A high-level overview of the _latest_ highly admired programming language by dev
 ![bg left h:500px](img/rust-logo-blk.svg)
 
 Based of the
-[Rust Fungus](https://www.reddit.com/r/rust/comments/27jvdt/internet_archaeology_the_definitive_endall_source/).
+[Rust Fungus](https://www.reddit.com/r/rust/comments/27jvdt/internet_archaeology_the_definitive_endall_source).
 
 The logo is a bike ring because most of the developers who started Rust [like to ride bikes](https://bugzilla.mozilla.org/show_bug.cgi?id=680521)
 
@@ -70,7 +70,7 @@ He realised that memory safety bugs where likely causing the elevator to break d
 
 ---
 
-> The short answer is that Rust solves pain points present in many other languages, providing a solid step forward with a limited number of downsides. [Stack Overflow Blog - 2020](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
+> The short answer is that Rust solves pain points present in many other languages, providing a solid step forward with a limited number of downsides. [Stack Overflow Blog - 2020](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular)
 
 **It's performant and memory optimized.**
 
@@ -78,7 +78,7 @@ He realised that memory safety bugs where likely causing the elevator to break d
 
 ---
 
-- Rust developers at [Google](https://www.theregister.com/2024/03/31/rust_google_c/) are twice as productive as C++ teams
+- Rust developers at [Google](https://www.theregister.com/2024/03/31/rust_google_c) are twice as productive as C++ teams
 
   > "So we see reduced memory usage in the services that we've moved from Go ... and we see a decreased defect rate over time in those services that have been rewritten in Rust – so increasing correctness."
 
@@ -88,7 +88,7 @@ He realised that memory safety bugs where likely causing the elevator to break d
 
 > Ruby & Python are more than 50x more expensive than C++ and Rust
 
-[The Frugal Architect](https://www.thefrugalarchitect.com/)
+[The Frugal Architect](https://www.thefrugalarchitect.com)
 (quoted in [Why Rust? - Serverless Rust](
 https://serverless-rust.com/docs/why-rust))
 
@@ -145,7 +145,7 @@ Docker introduced experimental support for WebAssembly in July 2023.
 
 - CloudFlare open sources their http proxy (alternative to NGINX) called [Pingora](https://blog.cloudflare.com/pingora-open-source)
 - [RedoxOS](https://redox-os.org) - Redox is a Unix-like Operating System written in Rust.
-- [Warp Terminal](https://www.warp.dev/) - an AI Powered Terminal
+- [Warp Terminal](https://www.warp.dev) - an AI Powered Terminal
 - [Using WebAssembly for VS Code Extension Development](https://code.visualstudio.com/blogs/2024/05/08/wasm)
 - Renault electric passenger car brand Ampere SDV platform is written in Rust.
 
@@ -160,8 +160,8 @@ Docker introduced experimental support for WebAssembly in July 2023.
 
 - [AWS Lambda supports Amazon Linux 2023](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-lambda-amazon-linux-2023)
 - [Cargo Lambda](https://www.cargo-lambda.info) (see [docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-rust.html))
-- AWS CodeArtifact [now supports Cargo](https://aws.amazon.com/about-aws/whats-new/2024/06/aws-codeartifact-cargo-rust-package-manager/), the Rust package manager
-- [Serverless Rust](https://serverless-rust.com/) - Your One Stop Shop For All Things Serverless Rust
+- AWS CodeArtifact [now supports Cargo](https://aws.amazon.com/about-aws/whats-new/2024/06/aws-codeartifact-cargo-rust-package-manager), the Rust package manager
+- [Serverless Rust](https://serverless-rust.com) - Your One Stop Shop For All Things Serverless Rust
 
 ### AWS Lambda Cold Starts
 
@@ -229,8 +229,8 @@ Official <https://www.rust-lang.org/learn>
 ---
 
 - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example) -  Learn Rust by solving little exercises. It's almost like `rustlings`, but online
-- Stay up to date with [This Week in Rust](https://this-week-in-rust.org/) - weekly newsletter and RSS Feed
-- [Rust Cheat Sheet](https://cheats.rs/)
+- Stay up to date with [This Week in Rust](https://this-week-in-rust.org) - weekly newsletter and RSS Feed
+- [Rust Cheat Sheet](https://cheats.rs)
 
 ## Practise
 
@@ -239,7 +239,7 @@ Official <https://www.rust-lang.org/learn>
 
 ---
 
-- [Rustlings](https://rustlings.cool/) - Contains small exercises to get you used to reading and writing Rust code
+- [Rustlings](https://rustlings.cool) - Contains small exercises to get you used to reading and writing Rust code
 ![bg left:60% w:700px](img/rustlings.png)
 
 ---
@@ -249,11 +249,12 @@ Official <https://www.rust-lang.org/learn>
 
 ---
 
+- [Tour of Rust](https://tourofrust.com)
 - [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
-- [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
+- [Rust for C#/.Net developers](https://microsoft.github.io/rust-for-dotnet-devs/latest)
 - [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises)
-- [Rustfinity](https://www.rustfinity.com/)
-- [Embedded Training](https://training.tweede.golf/)
+- [Rustfinity](https://www.rustfinity.com)
+- [Embedded Training](https://training.tweede.golf)
 - [And more...(github page)](https://github.com/ctjhoa/rust-learning)
 
 ## Learn by Video (cont...)
@@ -261,7 +262,7 @@ Official <https://www.rust-lang.org/learn>
 - [How to Learn Rust](https://www.youtube.com/watch?v=2hXNd6x9sZs)
 - [Beginners Series To Rust - Microsoft Learn](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust)
 - [Rust First Steps - Microsoft Learn Training](https://learn.microsoft.com/en-us/training/paths/rust-first-steps)
-- [100 Exercises To Learn Rust](https://rust-exercises.com/)
+- [100 Exercises To Learn Rust](https://rust-exercises.com)
 - [Rust In Motion (Paid)](https://learning.oreilly.com/videos/rust-in-motion)
 
 ## Tools
@@ -323,7 +324,7 @@ devcontainer.json
 - **Cargo** - build tool, dependency manager, test runner and project bootstrapper - rarely use `rustc`
 - **RustFmt** - standardize formatter
 - **Clippy** - better code feedback than the compiler
-- [creates.io](https://crates.io) - Rust's Packages Manager - more details at [blessed.rs](https://blessed.rs/)
+- [creates.io](https://crates.io) - Rust's Packages Manager - more details at [blessed.rs](https://blessed.rs)
 
 ---
 
