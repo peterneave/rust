@@ -440,7 +440,9 @@ fn main() {
 let x = 4;      // Compiler decides
 let x: i32 = 4; // Explicit Definition
 let x = 4i32;   // Suffix Annotations
+           //or 4_i32 for readability
 let long_variable_name = 1; //snake case
+
 ```
 
 ---
@@ -448,9 +450,9 @@ let long_variable_name = 1; //snake case
 Mutating a binding
 ```rust
 let mut x = 5;
-println!("x = {x}");
+println!("x = {x}"); // x = 5
 x = 6;
-println!("x = {x}");
+println!("x = {x}"); // x = 6
 ```
 
 ## Strings
