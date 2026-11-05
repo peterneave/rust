@@ -231,6 +231,7 @@ Official <https://www.rust-lang.org/learn>
 - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example) -  Learn Rust by solving little exercises. It's almost like `rustlings`, but online
 - Stay up to date with [This Week in Rust](https://this-week-in-rust.org) - weekly newsletter and RSS Feed
 - [Rust Cheat Sheet](https://cheats.rs)
+- [Docs.rs](https://docs.rs/) - Documentation host for crates of the Rust Programming Language
 
 ## Practise
 
