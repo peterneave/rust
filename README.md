@@ -151,7 +151,7 @@ Docker introduced experimental support for WebAssembly in July 2023.
 
 ---
 
-- [Zed.dev](https://zed.dev) code editor. _(Not available for Windows yet)_
+- [Zed.dev](https://zed.dev) code editor.
 - Mozilla [Project Oxidation](https://wiki.mozilla.org/Oxidation) is integration of Rust code into Firefox
 - [Rust to .NET compiler](https://github.com/FractalFir/rustc_codegen_clr) backend (experimental). Rust compiler to .NET assemblies
 
