@@ -287,6 +287,9 @@ devcontainer.json
   "name": "Rust",
   "image": "mcr.microsoft.com/devcontainers/rust:latest",
   "postCreateCommand": "rustup update; curl -L https://raw.githubusercontent.com/cordx56/rustowl/refs/heads/main/scripts/installer | sh",
+  "remoteEnv": {
+		"PATH": "${containerEnv:PATH}:/home/vscode/.rustowl"
+	},
   "customizations": {
     "vscode": {
       "settings": {
